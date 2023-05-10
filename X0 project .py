@@ -54,9 +54,6 @@ while game is False:
         print("Программа принимает значения от 1 от 9")
         break
     step_cell(step, sym)
-    if type(str(step)) is False:
-        print("Программа принимает только числа.")
-        break
     # сделать ход в указанную ячейку
     winner = game_result()
     # проверяем условия победы
